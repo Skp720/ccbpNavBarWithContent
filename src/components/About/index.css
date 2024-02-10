@@ -1,0 +1,39 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 87.6vh;
+  min-width: 100vw;
+  font-family: Roboto;
+}
+
+.about {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 767px) {
+  .about {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.about-head {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 767px) {
+  .about-head {
+    font-size: 50px;
+  }
+}
+
+.dark {
+  color: white;
+}
+
+.dark-bg {
+  background-color: black;
+}

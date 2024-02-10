@@ -1,0 +1,66 @@
+.nav-light-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-family: Roboto;
+  border-bottom: 1px solid gray;
+  min-height: 10vh;
+}
+
+.nav-dark-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-family: Roboto;
+  border-bottom: 1px solid gray;
+  min-height: 10vh;
+  background-color: #333333;
+}
+
+.logo-img {
+  height: 70px;
+  width: 70px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  outline: none;
+  cursor: pointer;
+  color: #1e293b;
+  margin: 0px 10px 0px 10px;
+  text-decoration: none;
+}
+
+.dec {
+  text-decoration: none;
+}
+
+.dark {
+  color: white;
+}
+
+.theme-logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0px;
+}
